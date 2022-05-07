@@ -1,0 +1,6 @@
+K8sRegistry: k8s.gcr.io
+DockerRegistry: ""
+QuayRegistry: quay.io
+storageClassName: ""
+pvcSize: ""
+retentionTime: "7d"
