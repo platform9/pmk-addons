@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: grafana-dashboard-cluster-exporer
+  name: grafana-dashboard-cluster-explorer
   namespace: pf9-monitoring
 data:
   home.json: |
