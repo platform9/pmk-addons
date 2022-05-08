@@ -162,6 +162,7 @@ metadata:
   name: grafana-ui
   namespace: pf9-monitoring
 spec:
+  type: LoadBalancer
   ports:
   - port: 80
     protocol: TCP
