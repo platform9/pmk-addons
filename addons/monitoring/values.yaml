@@ -4,3 +4,7 @@ QuayRegistry: quay.io
 storageClassName: ""
 pvcSize: ""
 retentionTime: "7d"
+grafanaUiSvcType: ClusterIP
+sysPrometheusSvcType: ClusterIP
+sysAlertManagerSvcType: ClusterIP
+

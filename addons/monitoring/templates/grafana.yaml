@@ -162,7 +162,7 @@ metadata:
   name: grafana-ui
   namespace: pf9-monitoring
 spec:
-  type: ClusterIP
+  type: {{ .Values.grafanaUiSvcType } }
   ports:
   - port: 80
     protocol: TCP
