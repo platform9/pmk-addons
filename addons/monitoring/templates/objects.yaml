@@ -96,7 +96,7 @@ metadata:
   name: sys-prometheus
   namespace: pf9-monitoring
 spec:
-  type: {{ .Values.sysPrometheusSvcType } }
+  type: {{ .Values.sysPrometheusSvcType }}
   ports:
   - name: web
     port: 9090
@@ -149,7 +149,7 @@ metadata:
   name: sys-alertmanager
   namespace: pf9-monitoring
 spec:
-  type: {{ .Values.sysAlertManagerSvcType } }
+  type: {{ .Values.sysAlertManagerSvcType }}
   ports:
   - name: web
     port: 9093
