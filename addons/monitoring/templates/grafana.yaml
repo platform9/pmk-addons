@@ -17,7 +17,7 @@ spec:
 {{- if .Values.DockerRegistry }}
       - image: {{ .Values.DockerRegistry }}/nginx:1.21.6
 {{- else }}
-      - image: nginx:1.21.6
+      - image: nginx:1.25.2
 {{- end }}
         imagePullPolicy: IfNotPresent
         name: proxy
