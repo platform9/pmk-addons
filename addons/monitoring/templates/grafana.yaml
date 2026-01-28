@@ -15,9 +15,9 @@ spec:
     spec:
       containers:
 {{- if .Values.DockerRegistry }}
-      - image: {{ .Values.DockerRegistry }}/nginx:1.21.6
+      - image: {{ .Values.DockerRegistry }}/nginx:1.28-alpine
 {{- else }}
-      - image: nginx:1.25.2
+      - image: nginx:1.28-alpine
 {{- end }}
         imagePullPolicy: IfNotPresent
         name: proxy
